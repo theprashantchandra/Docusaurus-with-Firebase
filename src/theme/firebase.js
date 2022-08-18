@@ -38,7 +38,7 @@ const handleSubmission = () => {
       res.send('This is me')
       navigate('docs/getting-started');
     })
-    .catch((err) => { console.log(err); });
+    .catch((err) => { console.log(err); alert(err);});
 };
 
 export {handleSubmission}
